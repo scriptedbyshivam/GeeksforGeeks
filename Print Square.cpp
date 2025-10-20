@@ -1,6 +1,34 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // code here
+    int n;
+    cin>>n;
+    
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            if(i==0||i==n-1||j==0||j==n-1){
+                cout<<"* ";
+            }
+            else{
+                cout<<"  ";
+                
+            }
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+
+
+
+
 // User function Template for C++
 
-void square(int s) {
+/*void square(int s) {
     // code here
     // int i;
     // int j;
@@ -18,17 +46,23 @@ void square(int s) {
         cout<<endl;
     }
 }
+*/
+
+
+
+
+
 
 
 /*
 Explaination of code-->
 
 for(int i = 0; i < s; i++) {
-Ye outer loop hai — ye har row ke liye chalega.
+Ye outer loop hai â€” ye har row ke liye chalega.
 i 0 se s-1 tak jaayega.
 
 for(int j = 0; j < s; j++) {
-Ye inner loop hai — ye har column ke liye chalega har row ke andar.
+Ye inner loop hai â€” ye har column ke liye chalega har row ke andar.
 j 0 se s-1 tak jaayega.
 
 if(i == 0 || i == s-1 || j == 0 || j == s-1)
@@ -48,3 +82,4 @@ Isse pattern hollow dikhega.
 cout << endl;
 Har row ke baad ek nayi line mein jaane ke liye endl use kiya gaya hai.
 */
+
