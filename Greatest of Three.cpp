@@ -20,3 +20,5 @@ int main() {
 /*
 && mai dono hi condtion sahi hona chahihye tabhi vo loop aage work karega
 || mai agar ek bhi condition sahi hui toh vo loop ko work kar dega
+*/
+
