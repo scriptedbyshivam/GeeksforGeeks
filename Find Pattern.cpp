@@ -5,8 +5,8 @@ int findPattern(string &s, string &p) {
     
     /*
     important 
-    n ? s ki length (total characters)
-    m ? p ki length
+    n -> s ki length (total characters)
+    m -> p ki length
     Ye variables baar-baar s.size() aur p.size() call karne se bachate hain.
     iski ki wahse se mera code run return -1 karne laga  yeh important hai,
     ki size ko kisi variable ke sath store use karo. warna choti mistake bhi baari pad sakti hai. 
@@ -39,7 +39,7 @@ int findPattern(string &s, string &p) {
 /*
 
 i <= n - m isliye, kyunki agar remaining characters pattern se kam hain, match possible nahi.
-Example: s = "Hello", p = "llo" ? loop i = 0,1,2 tak chalega.
+Example: s = "Hello", p = "llo" -> loop i = 0,1,2 tak chalega.
 
 
 Agar s ka current character p ke character se match nahi karta ? inner loop break ho jata hai
@@ -55,9 +55,9 @@ Return karo starting index i
 
 example:- 
 n = 5, m = 3
-Outer loop i = 0 ? s[0] != p[0] ? break
-i = 1 ? s[1] != p[0] ? break
-i = 2 ? s[2] == p[0], s[3] == p[1], s[4] == p[2] -> return 2
+Outer loop i = 0 -> s[0] != p[0] -> break
+i = 1 -> s[1] != p[0] -> break
+i = 2 -> s[2] == p[0], s[3] == p[1], s[4] == p[2] -> return 2
 
 
 
@@ -69,6 +69,7 @@ i = 2 ? s[2] == p[0], s[3] == p[1], s[4] == p[2] -> return 2
 
 
 */
+
 
 
 
