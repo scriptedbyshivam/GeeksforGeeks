@@ -27,11 +27,11 @@ int main() {
     //Bitwise AND (&)
     //Bitwise NOT (~)
     //Left Shift (<<) : do zero add karna hai left side  isme agar a=1,b=2; 
-    //a<<b toh a*(b^b) yaha ^ --> power hai 
+    //a<<b toh a*(2^b) yaha ^ --> power hai 
     //yese hi hoga Right Shift (>>)
     //isme right side zero add karna hai jitni digit hai di hogi
     //if a=16 and b=2 then a>>b = 4
-    //isme a/(b^b)     --> yaha b ki power b hai
+    //isme a/(2^b)     --> yaha 2 ki power b hai
 
 
     
@@ -44,4 +44,5 @@ int main() {
 
     return 0;
 }
+
 
