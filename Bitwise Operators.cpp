@@ -34,5 +34,14 @@ int main() {
     //isme a/(b^b)     --> yaha b ki power b hai
 
 
+    
+/* ALSO REMEMBER :-
+
+~ flips every bit — including the sign bit (the bit that determines positive or negative).
+
+
+*/
+
     return 0;
 }
+
