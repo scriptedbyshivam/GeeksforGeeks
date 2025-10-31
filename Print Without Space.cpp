@@ -4,4 +4,21 @@ void utility() {
     cin >> a >> b;
     cout<<a<<b<<endl;
     // Write your code below that prints ab
+
+    
 }
+
+
+
+
+
+// Alternate code
+
+// class Solution {
+//   public:
+//     void concatAndPrint(string& a, string& b) {
+//         // code here
+//         cout<<a<<b<<endl;
+//     }
+// };
+
