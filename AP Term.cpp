@@ -5,3 +5,16 @@ int apTerm(int a, int d, int n) {
 	//remember the AP formula..
         return ans;
 }
+
+
+//alternate solution of alternate question but same topic
+
+// class Solution {
+//   public:
+//     int nthTerm(int a, int d, int n) {
+//         // code here
+//         return a+((n-1)*d);
+//     }
+// };
+
+
