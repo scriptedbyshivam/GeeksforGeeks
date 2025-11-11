@@ -13,3 +13,36 @@ int main() {
     return 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+//this code is solve for different problem but similar code
+
+
+//void utility(int n) {
+
+
+// code here
+
+//for(int i= 1; i<=10;i++){
+
+
+
+//cout<<n*i<<" ";
+
+
+
+
+
+//}
+
+//}
+
