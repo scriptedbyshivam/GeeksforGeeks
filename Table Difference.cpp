@@ -24,6 +24,59 @@ void difference(int n1, int n2) {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+//alternate SOLUTION OF ALTERNATE QUESTION but topic is same 
+
+
+/*
+#include <iostream>
+using namespace std;
+
+int main() {
+    // code here
+    int n1;
+    int n2;
+    cin>>n1;
+    cin>>n2;
+    
+    for(int i=1;i<=10;i++){
+        cout<<(n1*i-n2*i)<<" ";
+        
+    }
+    
+
+    return 0;
+}
+*/
+
+/*
+if -->ondition check hoti hai -->ek baar run hota hai.
+
+while -->condition true -->baar-baar chalti hai jab tak condition false na ho.,
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 alternate solution
 
