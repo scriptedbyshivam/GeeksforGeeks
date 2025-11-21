@@ -12,3 +12,40 @@ void utility(int number) {
     }
 }
 /*Remember the difference b/w &&,||   */
+
+
+
+
+
+
+
+
+
+
+//alternate solution for alternate problem but topic is same 
+
+
+/*
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    // code here
+    int i;
+    cin>>i;
+    
+    if(i<10){
+        cout<<"Small";
+    }
+    else if(i>100){
+        cout<<"Big";
+    }
+    else if(10<i<100){
+        cout<<"Number";
+    }
+
+    return 0;
+}
+
+*/
