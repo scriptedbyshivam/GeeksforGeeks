@@ -13,3 +13,32 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+//alternate solution for alternate problem but topic is same 
+
+
+
+
+// User function Template for C++
+
+void squareWall(int s) {
+
+    // Write your code here
+    for(int i=1;i<=s;i++){
+        for(int j=1;j<=s;j++){
+            cout<<"* ";
+        }
+        cout<<endl;
+    }
+}
